@@ -1,6 +1,5 @@
 package com.example.task.domain.lecturer;
 
-import com.example.task.domain.subject.Subject;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

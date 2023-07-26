@@ -10,7 +10,7 @@ public record LecturerDto(
         Long subjectId
 ) {
 
-    public static LecturerDto fromDomain(Lecturer lecturer){
+    public static LecturerDto fromDomain(Lecturer lecturer) {
         return new LecturerDto(
                 lecturer.getId(),
                 lecturer.getName(),
